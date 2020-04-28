@@ -1,0 +1,10 @@
+Feature:
+  As a user
+  I want to find product
+  so i can purchase from website.
+
+  Scenario:
+    Given I am on homepage
+    When I search for the product
+    And I found my required product
+    Then I should put it in basket for checkout
